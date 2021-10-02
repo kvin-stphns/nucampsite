@@ -1,0 +1,60 @@
+@import url(//db.onlinewebfonts.com/c/f8050d3eba233789723ee5771403666d?family=Pragmatica);
+@import url(//db.onlinewebfonts.com/c/d4b2c0b7bd08ceb4c05bf627b58a18d4?family=PragmaticaW01-ExtendedBook);
+
+@font-face {font-family: "Pragmatica"; 
+    src: url("//db.onlinewebfonts.com/t/f8050d3eba233789723ee5771403666d.eot"); 
+    src: url("//db.onlinewebfonts.com/t/f8050d3eba233789723ee5771403666d.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/f8050d3eba233789723ee5771403666d.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/f8050d3eba233789723ee5771403666d.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/f8050d3eba233789723ee5771403666d.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/f8050d3eba233789723ee5771403666d.svg#Pragmatica") format("svg"); }
+
+
+@font-face {font-family: "PragmaticaW01-ExtendedBook"; src: url("//db.onlinewebfonts.com/t/d4b2c0b7bd08ceb4c05bf627b58a18d4.eot"); src: url("//db.onlinewebfonts.com/t/d4b2c0b7bd08ceb4c05bf627b58a18d4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d4b2c0b7bd08ceb4c05bf627b58a18d4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d4b2c0b7bd08ceb4c05bf627b58a18d4.woff") format("woff"), url("//db.onlinewebfonts.com/t/d4b2c0b7bd08ceb4c05bf627b58a18d4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d4b2c0b7bd08ceb4c05bf627b58a18d4.svg#PragmaticaW01-ExtendedBook") format("svg"); }
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+h1, h2, h3 {
+    font-family: PragmaticaW01-ExtendedBook;
+    font-weight: bold;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin:0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    font-family: Pragmatica;
+}
+
+.navbar {
+    background-color: rgb(28, 253, 204)
+}
+
+.site-footer{
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
